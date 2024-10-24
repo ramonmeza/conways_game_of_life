@@ -61,7 +61,7 @@ int main(int argc, char *argv[])
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
 	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
-	GLFWwindow *window = glfwCreateWindow(WINDOW_WIDTH, WINDOW_HEIGHT, "Tornado Simulation", nullptr, nullptr);
+	GLFWwindow *window = glfwCreateWindow(WINDOW_WIDTH, WINDOW_HEIGHT, "Conway's Game of Life", nullptr, nullptr);
 	if (window == nullptr)
 	{
 		std::cerr << "Failed to create window." << std::endl;

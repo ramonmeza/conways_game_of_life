@@ -3,6 +3,8 @@
 An implementation of Conway's Game of Life, utilizing OpenGL and GLSL to run the
 simulation on the GPU.
 
+![Demonstration Video](./conway_optimized.gif)
+
 ## Prerequisites
 
 - [GLFW](https://www.glfw.org/)
