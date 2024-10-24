@@ -36,3 +36,5 @@ Run the command: `.\build.bat`
 Ensure the proper DLL files are included in your `PATH` when running the executable:
 
 - `glfw3.dll`
+
+Also, please remember to add the `shaders` folder to your `PATH` as well.
